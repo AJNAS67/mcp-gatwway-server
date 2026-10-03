@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "job-portal-gateway": {
+      "command": "node",
+      "args": [
+        "c:/workspace/Personal/mcp-gateway-server/src/index.js"
+      ],
+      "env": {
+        "CANDIDATE_SERVICE_URL": "http://localhost:5001",
+        "JOB_SERVICE_URL": "http://localhost:5002"
+      }
+    }
+  }
+}
